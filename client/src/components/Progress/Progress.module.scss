@@ -1,0 +1,36 @@
+.progress {
+    margin-top: 40px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 32px;
+    display: flex;
+    border-radius: 8px;
+    border: 0.5px solid rgba(0, 0, 0, 0.08);
+    .item {
+        width: 50%;
+        background-color: #f3fcfd;
+        p {
+            margin: 2px 0 10px;
+            white-space: pre;
+        }
+        &:nth-child(1) {
+            border-radius: 0;
+            border-right: 2px solid black;
+            p {
+                text-align: right;
+                overflow: hidden;
+            }
+        }
+        
+    }
+
+    .textDefault {
+        font-weight: bold;
+        color: rgb(25, 25, 25);
+    }
+    
+    .textTyped {
+        color: rgb(117, 117, 117);
+    }
+}
+

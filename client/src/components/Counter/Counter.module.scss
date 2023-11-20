@@ -1,0 +1,13 @@
+.counters {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    .counter {
+        width: 240px;
+        text-align: center;
+        span {
+            font-weight: bold;
+        }
+    }
+}
